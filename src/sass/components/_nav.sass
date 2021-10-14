@@ -1,0 +1,40 @@
+.nav
+  display: flex
+  justify-content: space-between
+  padding: .25em
+  box-shadow: $box-shadow-small
+  background-image: $background-gradient
+
+  &__icon
+    background-image: url('../img/logo-nw-sm.png')
+    height: 100%
+    width: 70px
+    z-index: 1
+    scale: .8
+
+  &__list
+    margin: 1.5em 0
+    display: flex
+    justify-content: flex-end
+    list-style: none
+
+  &__link
+    margin: 0 2rem
+    font-family: $font-body
+
+    &:hover,
+    &:active
+      transform: scale(1.1)
+
+    a
+      text-decoration: none
+      color: $color-font-light
+      font-weight: 600
+
+      &:hover,
+      &:active
+        color: $color-primary
+        
+
+      
+

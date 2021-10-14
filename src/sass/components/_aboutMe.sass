@@ -1,0 +1,40 @@
+.about
+  width: 70vw
+  height: 50vh
+  margin: 4em auto
+  padding: 5em
+  font-size: 3em
+  font-family: $font-header
+  color: $color-secondary
+  filter: drop-shadow($box-shadow)
+  position: relative
+
+  &__bioWrap
+    width: 100%
+    height: 95%
+    border: 1px solid purple
+    padding: .5em
+    margin-top: 1rem
+    transform: skewX(16deg)
+    background-image: $background-gradient
+    filter: drop-shadow($box-shadow)
+    z-index: 100
+    
+
+    p
+      color: $color-font-light
+      font-family: $font-body
+      transform: skew(-16deg)
+      font-size: .60em
+      margin: 2.25em 4em
+      line-height: 1.75
+
+  &__bio
+    width: 71vw
+    height: 50vh
+    transform: skewX(16deg)
+    position: absolute
+    top: 8em
+    left: 4.5em
+    z-index: -1
+    background-color: $color-primary
