@@ -29,9 +29,7 @@ export default function Nav() {
 					className={styles.nav__link}
 					href="#whatiknow"
 				>
-					<a href="#whatiknow">
-						What I know
-					</a>
+					<a href="#whatiknow">Tech</a>
 				</li>
 				<li
 					className={styles.nav__link}
