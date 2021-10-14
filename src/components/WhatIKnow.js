@@ -7,7 +7,8 @@ export default function WhatIKnow() {
 	return (
 		<div className={styles.techStack} id="whatiknow">
 			<div className={styles.whatIKnow}>
-				Current Tech Knowledge
+				Languages, Libraries, Frameworks and
+				Tech
 			</div>
 			<section className={styles.techContainer}>
 				<div>
