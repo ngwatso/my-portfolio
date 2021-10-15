@@ -1,7 +1,5 @@
-/**
- * @prettier
- */
 import styles from '../sass/main.module.sass';
+import Image from 'next/image'
 
 export default function Projects() {
 	return (
@@ -25,7 +23,7 @@ export default function Projects() {
 						>
 							<div
 								className={
-									styles.projectImg
+									styles.projectImg1
 								}
 							></div>
 							<div
@@ -54,7 +52,7 @@ export default function Projects() {
 						>
 							<div
 								className={
-									styles.projectImg
+									styles.projectImg2
 								}
 							></div>
 							<div
@@ -82,7 +80,7 @@ export default function Projects() {
 						>
 							<div
 								className={
-									styles.projectImg
+									styles.projectImg3
 								}
 							></div>
 							<div
@@ -109,7 +107,7 @@ export default function Projects() {
 						>
 							<div
 								className={
-									styles.projectImg
+									styles.projectImg4
 								}
 							></div>
 							<div

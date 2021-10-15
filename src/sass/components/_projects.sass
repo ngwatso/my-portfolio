@@ -1,8 +1,8 @@
 .projects
   width: 100%
   height: 60vh
-  margin: 5em auto
-  padding: 4em 0
+  margin: 4em auto
+  padding: 7em 0
   display: flex
   flex-direction: column
   justify-content: flex-start
@@ -16,7 +16,6 @@
     font-family: $font-header
     color: $color-secondary
     margin: .75em 0 1.25em 0
-    // color: $color-font-dark
 
 
   &__container
@@ -26,25 +25,12 @@
     align-content: space-between
 
   &__card
-    // border: 1px solid red
     width: 15vw
     height: 35vh
     border-radius: 1rem
-    // overflow: hidden
-    // display: flex
-    // flex-direction: column
-    // background-color: yellowgreen
     position: relative
     perspective: 200rem
     -moz-perspective: 200rem
-
-    // .cardTop
-    //   // height: 75%
-    //   height: 100%
-    //   background-color: yellowgreen
-    //   position: relative
-    //   perspective: 150rem
-    //   -moz-perspective: 150rem
 
     &__side
       height: 100%
@@ -59,8 +45,6 @@
       border-radius: .5rem
       background-image: $background-gradient
 
-      // @include flexCenterAll   
-
       &__front
         height: 100%
         width: 100%        
@@ -69,15 +53,48 @@
         box-shadow: $box-shadow
         color: $color-font-light
 
-        .projectImg
-          height:75%
+        .projectImg1
+          height:55%
           width: 90%
-          border-radius-top-left: 5rem
+          border-radius: 1rem
           border-radius-top-right: 1rem
           overflow: hidden
+          background-image: url('../img/waterMyPlants.jpeg')
+          background-size: cover
+          background-position: top
+
+        .projectImg2
+          height:55%
+          width: 90%
+          border-radius: 1rem
+          border-radius-top-right: 1rem
+          overflow: hidden
+          background-image: url('../img/anywhereFitness.jpeg')
+          background-size: cover
+          background-position: top-left
+
+        .projectImg3
+          height:55%
+          width: 90%
+          border-radius: 1rem
+          border-radius-top-right: 1rem
+          overflow: hidden
+          background-image: url('../img/waterMyPlants.jpeg')
+          background-size: cover
+          background-position: center
+
+        .projectImg4
+          height:55%
+          width: 90%
+          border-radius: 1rem
+          border-radius-top-right: 1rem
+          overflow: hidden
+          background-image: url('../img/blog.jpeg')
+          background-size: cover
+          background-position: center
 
         .projectName
-          height: 15%
+          height: 35%
           width: 90%
           @include flexCenterAll
           font-family: $font-body
@@ -90,10 +107,12 @@
         box-shadow: $box-shadow
 
     &:hover &__side__front
-      transform: rotateY(-180deg)
+      transform: rotateY(-180deg) scale(1.1)
 
     &:hover &__side__back
-      transform: rotateY(0) 
+      transform: rotateY(0) scale(1.1)
 
 .projectsWrap
   filter: drop-shadow($box-shadow-small)
+  margin: 8em 0
+  padding: 3em 0

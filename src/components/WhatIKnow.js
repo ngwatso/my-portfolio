@@ -1,6 +1,3 @@
-/**
- * @prettier
- */
 import styles from '../sass/main.module.sass';
 
 export default function WhatIKnow() {
